@@ -1,14 +1,17 @@
-import data from './services/data.json'
+
 import Header from './components/Header'
 import Barchart from './components/Barchart'
+import data from './services/data.json'
+
 
 function App() {
+  console.log(data)
   return (
     <div>
 
       <Header/>
-      {data.map(d => <Barchart key = {d.amount} data = {d}/> )}
 
+      <Barchart data={data}/>
     </div>
   )
 }
