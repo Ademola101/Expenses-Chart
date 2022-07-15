@@ -1,9 +1,10 @@
 
 
-const Barchart = () => {
+const Barchart = ({ data }) => {
   return (
-    <div>
 
+    <div>
+      {data.amount}
     </div>
   )
 }
