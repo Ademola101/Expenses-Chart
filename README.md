@@ -59,6 +59,6 @@ I learnt how to work with charts in React using the Rechart library.
 - Website - [Ademola Portfolio](https://ademola-ogun.netlify.app/)
 - GitHub: [@Ademola101](https://github.com/Ademola101)
 - LinkedIn: [Ademola Ogunmokun](https://linkedin.com/in/ademola-ogunmokun-492575203)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@Ademola101](https://www.frontendmentor.io/profile/Ademola101)
 - Twitter - [@ademola_isr](https://twitter.com/ademola_isr)
   
