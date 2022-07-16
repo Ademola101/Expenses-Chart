@@ -5,7 +5,7 @@ import data from './services/data.json'
 
 
 function App() {
-  console.log(data)
+
   return (
     <div>
 
