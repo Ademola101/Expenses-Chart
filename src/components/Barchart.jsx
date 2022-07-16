@@ -1,5 +1,6 @@
 import { BarChart, XAxis, YAxis, Tooltip, Legend, Bar, Cell } from 'recharts'
 import { BarchartStyle } from './styles/BarchartStyle'
+import Footer from './Footer'
 
 const Barchart = ({ data }) => {
 
@@ -28,14 +29,14 @@ const Barchart = ({ data }) => {
         <YAxis />
         <Tooltip />
         <Legend />
-        <Bar dataKey="day" fill="#8884d8" />
-        <Bar dataKey="amount" fill= ' hsl(10, 79%, 65%)'> {data.map((d) => {
+
+        <Bar barSize={30} dataKey="amount" fill= ' hsl(10, 79%, 65%)'> {data.map((d) => {
           return <Cell key={d.amount} fill={getColor(d.amount)}/>
         })}
         </Bar>
       </BarChart>
 
-
+      <Footer/>
     </BarchartStyle>
   )
 }

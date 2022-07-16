@@ -1,14 +1,14 @@
-
+import { FooterStyle } from './styles/FooterStyle'
 
 const Footer = () => {
   return (
-    <div>
-      <div>
-  Total this month
-      </div>
+    <FooterStyle>
+      <small className='total'>
+  Total this month: <div>&#36; 100</div>
+      </small>
 
       <div> From last month</div>
-    </div>
+    </FooterStyle>
   )
 }
 

@@ -25,6 +25,7 @@ small {
   margin-left: 10px;
   margin-top: auto;
   text-align: start;
+  font-weight: 700;
 
 }
 
