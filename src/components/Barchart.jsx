@@ -1,4 +1,4 @@
-import { BarChart, CartesianGrid, XAxis, YAxis, Tooltip, Legend, Bar, Cell } from 'recharts'
+import { BarChart, XAxis, YAxis, Tooltip, Legend, Bar, Cell } from 'recharts'
 
 const Barchart = ({ data }) => {
 
@@ -22,7 +22,7 @@ const Barchart = ({ data }) => {
 
       <BarChart width={730} height={250} data={data}>
 
-        <CartesianGrid strokeDasharray="3 3" />
+
         <XAxis dataKey="day" />
         <YAxis />
         <Tooltip />

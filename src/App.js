@@ -1,7 +1,8 @@
-
+import data from './services/data.json'
 import Header from './components/Header'
 import Barchart from './components/Barchart'
-import data from './services/data.json'
+import Footer from './components/Footer'
+
 
 
 function App() {
@@ -9,9 +10,10 @@ function App() {
   return (
     <div>
 
-      <Header/>
+      <Header key={data.amount} data={data}/>
 
       <Barchart data={data}/>
+      <Footer/>
     </div>
   )
 }

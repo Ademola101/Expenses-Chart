@@ -1,6 +1,9 @@
 
-const Header = ({ amount }) => {
+const Header = ({ data }) => {
 
+  const reducer = (sum, value) => sum + value
+  const amountArray = data.map(d => d.amount)
+  const totalAmount = amountArray.reduce(reducer, 0)
   return (
     <header>
 
@@ -8,7 +11,7 @@ const Header = ({ amount }) => {
         My balance
       </div>
       <div>
-        {amount}
+        {totalAmount}
       </div>
     </header> )
 }
