@@ -9,12 +9,23 @@ border-radius: 10px;
 margin-right: auto;
 margin-left: auto;
 display: flex;
-gap: 5px;
+gap: 1px;
 flex-direction: column;
 justify-content: center;
-align-items: center;
+align-items: flex-start;
+
 small {
-  margin: 10px;
+  margin-left: 10px;
+  margin-top: 5px;
+  text-align: start;
+
+}
+
+.amount {
+  margin-left: 10px;
+  margin-top: auto;
+  text-align: start;
+
 }
 
 @media (max-width:375px) {

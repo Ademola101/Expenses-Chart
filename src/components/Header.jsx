@@ -10,8 +10,8 @@ const Header = ({ data }) => {
       <small >
         My balance
       </small>
-      <div>
-        {totalAmount}
+      <div className='amount'>
+      &#36; {totalAmount}
       </div>
     </HeaderStyle> )
 }
