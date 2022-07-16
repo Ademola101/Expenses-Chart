@@ -7,9 +7,9 @@ const Header = ({ data }) => {
   return (
     <HeaderStyle>
 
-      <div>
+      <small >
         My balance
-      </div>
+      </small>
       <div>
         {totalAmount}
       </div>
