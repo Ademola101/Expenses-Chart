@@ -1,8 +1,9 @@
 import { BarChart, XAxis, YAxis, Tooltip, Legend, Bar, Cell } from 'recharts'
+import { BarchartStyle } from './styles/BarchartStyle'
 
 const Barchart = ({ data }) => {
 
-  const red = ' hsl(10, 79%, 65%)'
+  const red = 'hsl(10, 79%, 65%)'
   const blue = 'hsl(186, 34%, 60%)'
   const getColor = (group) => {
     const amount = data.map(d => d.amount)
@@ -17,10 +18,10 @@ const Barchart = ({ data }) => {
   }
   return (
 
-    <div>
-      <p> Barchart</p>
+    <BarchartStyle>
+      <p> Spending - Last 7 days</p>
 
-      <BarChart width={730} height={250} data={data}>
+      <BarChart width={500} height={250} data={data}>
 
 
         <XAxis dataKey="day" />
@@ -35,7 +36,7 @@ const Barchart = ({ data }) => {
       </BarChart>
 
 
-    </div>
+    </BarchartStyle>
   )
 }
 

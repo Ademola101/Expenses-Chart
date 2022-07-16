@@ -10,9 +10,15 @@ const GlobalStyle = createGlobalStyle`
 
   body {
     font-size: 18px;
+    font-family: 'DM Sans', sans-serif;
     background:  hsl(27, 66%, 92%);
     margin: 0;
     letter-spacing: 0.07em;
+    width: 100vw;
+    @media (max-width:375px) {
+  width: 80vw;
+}
+
   }
 
 `
