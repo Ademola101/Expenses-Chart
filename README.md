@@ -29,11 +29,9 @@ Users should be able to:
 
 ### Screenshot
 
-Mobile view
+
 ![Mobile view](./screenshot/screenshot_web.png)
 
-Desktop view
-![Desktop view](./screenshot/ScreenShot(iPhone%2012%20Pro).png)
 
 ### Links
 
