@@ -20,7 +20,7 @@ const Barchart = ({ data }) => {
   return (
 
     <BarchartStyle>
-      <p> Spending - Last 7 days</p>
+      <strong> Spending - Last 7 days</strong>
 
       <BarChart width={500} height={250} data={data}>
 
