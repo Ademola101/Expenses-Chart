@@ -56,7 +56,7 @@ Desktop view
 - CSS Grid
 - Mobile-first workflow
 - [React](https://reactjs.org/) - JS library
-- [Rechart](https://recharts.org/en-US/) - React Chart Librry library
+- [Rechart](https://recharts.org/en-US/) - React Chart Library library
 - [Styled Components](https://styled-components.com/) - For styles
 
 
