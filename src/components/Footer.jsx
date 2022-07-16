@@ -6,8 +6,15 @@ const Footer = () => {
       <small className='total'>
   Total this month: <div>&#36; 100</div>
       </small>
+      <div>
 
-      <div> From last month</div>
+        <strong className='percent'>
+    +2.1%
+        </strong>
+        <div className='last'> From last month</div>
+
+      </div>
+
     </FooterStyle>
   )
 }

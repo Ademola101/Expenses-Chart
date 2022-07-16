@@ -9,9 +9,13 @@ background-color: white;
 justify-content: center;
 border-radius: 10px;
 flex-direction: column;
-@media (max-width:px) {
-  width: 80vw !important;
-  margin: auto;
+p {
+margin-top: 10px;
+}
+@media (max-width:400px) {
+  
+  margin-right: 5px;
+  margin-left: 5px;
 }
 
 

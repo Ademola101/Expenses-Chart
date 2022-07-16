@@ -14,11 +14,16 @@ const GlobalStyle = createGlobalStyle`
     background:  hsl(27, 66%, 92%);
     margin: 0;
     width: 100vw;
-    @media (max-width:375px) {
-  width: 80vw;
+    
+  
 }
 
-  }
+@media (max-width:400px) {
+
+body {
+  margin: 10px;
+}
+}
 
 `
 
