@@ -47,7 +47,9 @@ module.exports = {
     ],
     'no-console': 0,
     'react/prop-types': 0,
-    'react/react-in-jsx-scope': 'off'
+    'react/react-in-jsx-scope': 'off',
+    'prettier/prettier': 0,
+
   },
   'settings': {
     'react': {
