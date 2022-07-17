@@ -1,22 +1,22 @@
-import { BarChart, XAxis, YAxis, Tooltip, Legend, Bar, Cell } from 'recharts'
-import { BarchartStyle } from './styles/BarchartStyle'
-import Footer from './Footer'
+import { BarChart, XAxis, YAxis, Tooltip, Legend, Bar, Cell } from 'recharts';
+import { BarchartStyle } from './styles/BarchartStyle';
+import Footer from './Footer';
 
 const Barchart = ({ data }) => {
 
-  const red = 'hsl(10, 79%, 65%)'
-  const blue = 'hsl(186, 34%, 60%)'
+  const red = 'hsl(10, 79%, 65%)';
+  const blue = 'hsl(186, 34%, 60%)';
   const getColor = (group) => {
-    const amount = data.map(d => d.amount)
-    const maxAmount = Math.max(...amount)
+    const amount = data.map(d => d.amount);
+    const maxAmount = Math.max(...amount);
 
     if (group === maxAmount){
-      return blue
+      return blue;
     }
-    return red
+    return red;
 
 
-  }
+  };
   return (
 
     <BarchartStyle>
@@ -31,14 +31,14 @@ const Barchart = ({ data }) => {
         <Legend />
 
         <Bar barSize={30} dataKey="amount" fill= ' hsl(10, 79%, 65%)'> {data.map((d) => {
-          return <Cell key={d.amount} fill={getColor(d.amount)}/>
+          return <Cell key={d.amount} fill={getColor(d.amount)}/>;
         })}
         </Bar>
       </BarChart>
 
       <Footer/>
     </BarchartStyle>
-  )
-}
+  );
+};
 
-export default Barchart
+export default Barchart;

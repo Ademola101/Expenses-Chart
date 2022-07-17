@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from 'styled-components';
 
 export const HeaderStyle = styled.header`
 background-color: hsl(10, 79%, 65%);
@@ -47,4 +47,4 @@ small {
   
 }
 
-`
+`;

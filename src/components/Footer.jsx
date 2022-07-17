@@ -1,4 +1,4 @@
-import { FooterStyle } from './styles/FooterStyle'
+import { FooterStyle } from './styles/FooterStyle';
 
 const Footer = () => {
   return (
@@ -16,7 +16,7 @@ const Footer = () => {
       </div>
 
     </FooterStyle>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;

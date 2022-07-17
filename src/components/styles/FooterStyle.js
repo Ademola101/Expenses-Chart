@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from 'styled-components';
 
 export const FooterStyle = styled.footer`
 display: flex;
@@ -28,4 +28,4 @@ margin-top: 30px;
 }
 
 
-`
+`;

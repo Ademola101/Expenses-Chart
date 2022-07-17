@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from 'styled-components';
 
 export const BarchartStyle = styled.div`
 width: 500px;
@@ -20,4 +20,4 @@ margin-top: 10px;
 
 
 
-`
+`;
