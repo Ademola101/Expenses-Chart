@@ -35,7 +35,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Expenses chart](https://lovely-meerkat-f900ae.netlify.app/)
+- Live Site URL: [Expenses chart](https://expenses-chart01.netlify.app/)
 
 ## My process
 
